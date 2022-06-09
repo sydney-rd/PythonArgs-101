@@ -5,6 +5,7 @@ import argparse
 def circle_area(radius):
     return (radius) * (radius) * (math.pi)
 
+# main function that uses argparse to allow the user to enter a radius 
 def main():
 
     parser = argparse.ArgumentParser(description="Enter radius of a circle and we will calculate the area")
@@ -15,5 +16,6 @@ def main():
 
     return
 
+# call the main function
 if __name__ == "__main__":
     main()

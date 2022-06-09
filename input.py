@@ -4,6 +4,7 @@ import math
 def circle_area(radius):
     return (radius) * (radius) * (math.pi)
 
+# main function to ensure valid input for radius
 def main():
     try:
         inp = int(input("enter radius: "))
@@ -12,6 +13,7 @@ def main():
         print("input was invalid")
 
     return
-
+    
+# calls the main function
 if __name__ == "__main__":
     main()
