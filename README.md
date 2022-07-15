@@ -1,5 +1,11 @@
 # Argparse tutorial for Python3
 
+A small tutorial project to demonstrate argparse vs input during runtime in Python3
+
+# Requirements
+
+$ sudo apt-get install python3.6
+
 # Run input.py
 
 From terminal, run:
